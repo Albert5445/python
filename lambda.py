@@ -1,5 +1,4 @@
-l1 = [1, 2, 3, 4, 5]
-l2 = [10, 20, 30]
-
-r = list(map(lambda x,y: x+y , l1, l2))
-print(r)
+for x in range(11):
+    for y in range(11):
+        print(x, '*',y,'=',x*y, end='|')
+    print()
